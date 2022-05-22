@@ -9,12 +9,12 @@ export default function Home() {
       <h1>
         Utkarsh:$ <span className={styles.help}>type help to start</span>
       </h1>
-      {/* <p>
+      <p>
         Visit{" "}
-        <a href="https://n.kavin.me" target="_blank" rel="noreferrer">
+        <a href="https://n.utkarshchourasia.in/" target="_blank" rel="noreferrer">
           Normal website
         </a>
-      </p> */}
+      </p>
 
       <Terminal />
     </div>
