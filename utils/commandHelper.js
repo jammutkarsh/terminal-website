@@ -23,10 +23,10 @@ const COMMANDS = [
     command: "contact",
     description: "Contact Me",
   },
-  // {
-  //   command: "blog",
-  //   description: "Visit my blog",
-  // },
+  {
+    command: "blog",
+    description: "Visit my blog",
+  },
   {
     command:
       // 'clear <span style="color: var(--primary)">(Ctrl+L shortcut)</span>',
@@ -108,14 +108,13 @@ export const CONTENTS = {
   education: () => `I am currently pursuing a bachelor's in Computer Science Engineering from <a href="https://www.medicaps.ac.in/"> Medicaps University</a>.`,
   
   skills: () => `
-  <div class="skill"><b>Language</b>: Go, C++, Bash, Python<br /></div>
-  <div class="skill"><b>Tools</b>: Docker, Github Actions, Netify, GNU/Linux<br /></div>
-  I also have experience with CLI Development with Go and shell scripting.
+  <div class="skill"><b>Language</b>: Go, C++, Bash<br /></div>
+  <div class="skill"><b>Tools</b>: Docker, AWS, Github Actions, Netify, GNU/Linux<br /></div>
   <br />
   <br />
   <b>Outside Computer Science</b>
   <br />
-  <div class="skill"><b>Interests</b>: Non-Fiction Books, Music, Finance, Human Psychology<br /></div>
+  <div class="skill"><b>Interests</b>: Books, Music, Finance, Human Psychology<br /></div>
 <br />
   `,
   projects: getProjects, 
@@ -123,10 +122,10 @@ export const CONTENTS = {
   contact: getContacts,
   error: (input) =>
     `<div class="help-command">sh: Unknown command: ${input}</div><div class="help-command">See \`help\` for info`,
-  // blog: () => {
-  //   window.open("https://livecode247.com", "_blank");
-  //   return "";
-  // },
+  blog: () => {
+    window.open("https://dev.to/jammutkarsh", "_blank");
+    return "";
+  },
 };
 
 function getAge(dateString) {
