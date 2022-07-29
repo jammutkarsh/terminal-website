@@ -28,7 +28,7 @@ export default async function handler(req, res) {
       {
         medium: "linkedin",
         username: "5utkarshc",
-        link: "https://www.linkedin.com/in/5utkarshc/",
+        link: "https://www.linkedin.com/in/jammutkarsh/",
       },
     ];
 
