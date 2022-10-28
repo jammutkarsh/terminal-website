@@ -59,7 +59,7 @@ const getExperience = async () => {
         (experience) => `<div class="command" style="display:flex; flex-direction:row; align-item:center; justify-content:space-between">
         <div>
         <a href="${experience.link}" target="_blank"><b class="command">${experience.name
-        }</b></a> - <b>${experience.position}</b>
+          }</b></a> - <b>${experience.position}</b>
         </div>
         <div style="display:flex; flex-direction:row; align-item:center; gap:1rem">
         <p class="meaning">${experience.startDate}</p> -
@@ -106,7 +106,7 @@ export const CONTENTS = {
   `,
   // Yash
   education: () => `I am currently pursuing a bachelor's in Computer Science Engineering from <a href="https://www.medicaps.ac.in/"> Medicaps University</a>.`,
-  
+
   skills: () => `
   <div class="skill"><b>Language</b>: Go, C++, Bash<br /></div>
   <div class="skill"><b>Tools</b>: Docker, AWS, Github Actions, Netify, GNU/Linux<br /></div>
@@ -117,13 +117,13 @@ export const CONTENTS = {
   <div class="skill"><b>Interests</b>: Books, Music, Finance, Human Psychology<br /></div>
 <br />
   `,
-  projects: getProjects, 
-  experience: getExperience, 
+  projects: getProjects,
+  experience: getExperience,
   contact: getContacts,
   error: (input) =>
     `<div class="help-command">sh: Unknown command: ${input}</div><div class="help-command">See \`help\` for info`,
   blog: () => {
-    window.open("https://dev.to/jammutkarsh", "_blank");
+    window.open("https://blog-utkarshchourasia-in.vercel.app/", "_blank");
     return "";
   },
 };
