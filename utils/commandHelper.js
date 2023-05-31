@@ -123,7 +123,7 @@ export const CONTENTS = {
   error: (input) =>
     `<div class="help-command">sh: Unknown command: ${input}</div><div class="help-command">See \`help\` for info`,
   blog: () => {
-    window.open("https://blog-utkarshchourasia-in.vercel.app/", "_blank");
+    window.open("https://blog.utkarshchourasia.in/", "_blank");
     return "";
   },
 };
